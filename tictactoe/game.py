@@ -1,4 +1,4 @@
-import constants
+from tictactoe import constants
 
 
 class TicTacToe:

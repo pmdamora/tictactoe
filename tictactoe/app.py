@@ -3,9 +3,9 @@ from PyQt5.QtWidgets import (QWidget, QGridLayout, QPushButton, QApplication,
 from PyQt5.QtCore import Qt, QSize
 from PyQt5.QtGui import QColor
 
-from game import TicTacToe
-import constants
-import view
+from tictactoe.game import TicTacToe
+from tictactoe import view
+from tictactoe import constants
 
 
 class App(QWidget):

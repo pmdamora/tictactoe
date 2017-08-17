@@ -3,7 +3,7 @@ from PyQt5.QtWidgets import (QStackedWidget, QWidget, QVBoxLayout, QPushButton,
                              QLabel, QMainWindow, QGridLayout)
 from PyQt5.QtGui import QColor
 
-import constants
+from tictactoe import constants
 
 
 class Magic(QStackedWidget):
